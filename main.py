@@ -58,8 +58,3 @@ class TheoryOfNumbers:
             else:
                 res.append(i)
         return random.choice(res)
-
-
-t = TheoryOfNumbers(53)
-print(t.task_4(13, 2, 53))
-print(t.task_5(24, 33))
